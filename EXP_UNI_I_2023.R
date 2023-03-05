@@ -30,11 +30,10 @@ options(scipen = 0)
 rm(list = ls())
 
 # Working directory is selected
-# setwd("/media/maikel/Trabajo/R_ITC/R_LABHYD/EXP_UNI")
-setwd("C:/DATOS/R_ITC/R_LABHYD/EXP_UNI")
+setwd("/media/maikel/Trabajo/R_ITC/R_LABHYD/EXP_UNI")
 
 # CRAN libraries are loaded
-require(Agreement)
+# require(Agreement)
 require(DescTools)
 require(effects)
 require(ggplot2)
